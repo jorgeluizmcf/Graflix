@@ -1,0 +1,31 @@
+.movie-swiper {
+    padding: 20px;
+  }
+  
+  .movie-swiper-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .movie-item {
+    flex-shrink: 0;
+    cursor: pointer;
+    scroll-snap-align: center;
+    position: relative;
+  }
+  
+  .movie-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-image:hover {
+    transform: scale(1.1);
+  }
+  

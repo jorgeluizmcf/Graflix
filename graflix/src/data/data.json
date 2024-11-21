@@ -1,0 +1,153 @@
+[
+    {
+      "titulo": "A Origem",
+      "classificacao_indicativa": "14 anos",
+      "genero": "Ficção Científica",
+      "tempo_duracao": "148 minutos",
+      "elenco": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+      "ano_lancamento": 2010,
+      "diretor": "Christopher Nolan",
+      "capa": "/src/img/movies/a-origem.jpg"
+    },
+    {
+      "titulo": "O Poderoso Chefão",
+      "classificacao_indicativa": "18 anos",
+      "genero": "Drama",
+      "tempo_duracao": "175 minutos",
+      "elenco": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "ano_lancamento": 1972,
+      "diretor": "Francis Ford Coppola",
+      "capa": "/src/img/movies/o-poderoso-chefao.jpg"
+    },
+    {
+      "titulo": "Forrest Gump: O Contador de Histórias",
+      "classificacao_indicativa": "12 anos",
+      "genero": "Drama",
+      "tempo_duracao": "142 minutos",
+      "elenco": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+      "ano_lancamento": 1994,
+      "diretor": "Robert Zemeckis",
+      "capa": "/src/img/movies/forrest-gump.jpg"
+    },
+    {
+      "titulo": "Matrix",
+      "classificacao_indicativa": "16 anos",
+      "genero": "Ficção Científica",
+      "tempo_duracao": "136 minutos",
+      "elenco": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+      "ano_lancamento": 1999,
+      "diretor": "Lana Wachowski, Lilly Wachowski",
+      "capa": "/src/img/movies/matrix.jpg"
+    },
+    {
+      "titulo": "Pulp Fiction: Tempo de Violência",
+      "classificacao_indicativa": "18 anos",
+      "genero": "Crime",
+      "tempo_duracao": "154 minutos",
+      "elenco": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+      "ano_lancamento": 1994,
+      "diretor": "Quentin Tarantino",
+      "capa": "/src/img/movies/pulp-fiction.png"
+    },
+    {
+      "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+      "classificacao_indicativa": "12 anos",
+      "genero": "Fantasia",
+      "tempo_duracao": "178 minutos",
+      "elenco": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+      "ano_lancamento": 2001,
+      "diretor": "Peter Jackson",
+      "capa": "/src/img/movies/senhor-dos-aneis.jpg"
+    },
+    {
+      "titulo": "Clube da Luta",
+      "classificacao_indicativa": "18 anos",
+      "genero": "Drama",
+      "tempo_duracao": "139 minutos",
+      "elenco": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+      "ano_lancamento": 1999,
+      "diretor": "David Fincher",
+      "capa": "/src/img/movies/clube-da-luta.jpg"
+    },
+    {
+      "titulo": "O Rei Leão",
+      "classificacao_indicativa": "Livre",
+      "genero": "Animação",
+      "tempo_duracao": "88 minutos",
+      "elenco": ["Matthew Broderick", "James Earl Jones", "Jeremy Irons"],
+      "ano_lancamento": 1994,
+      "diretor": "Roger Allers, Rob Minkoff",
+      "capa": "/src/img/movies/o-rei-leao.jpg"
+    },
+    {
+      "titulo": "Gladiador",
+      "classificacao_indicativa": "16 anos",
+      "genero": "Ação",
+      "tempo_duracao": "155 minutos",
+      "elenco": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+      "ano_lancamento": 2000,
+      "diretor": "Ridley Scott",
+      "capa": "/src/img/movies/gladiador.jpg"
+    },
+    {
+      "titulo": "Coringa",
+      "classificacao_indicativa": "18 anos",
+      "genero": "Drama",
+      "tempo_duracao": "122 minutos",
+      "elenco": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
+      "ano_lancamento": 2019,
+      "diretor": "Todd Phillips",
+      "capa": "/src/img/movies/coringa.jpg"
+    },
+    {
+      "titulo": "Os Vingadores: Ultimato",
+      "classificacao_indicativa": "12 anos",
+      "genero": "Ação",
+      "tempo_duracao": "181 minutos",
+      "elenco": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+      "ano_lancamento": 2019,
+      "diretor": "Anthony Russo, Joe Russo",
+      "capa": "/src/img/movies/vingadores-ultimato.jpg"
+    },
+    {
+      "titulo": "Interestelar",
+      "classificacao_indicativa": "10 anos",
+      "genero": "Ficção Científica",
+      "tempo_duracao": "169 minutos",
+      "elenco": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+      "ano_lancamento": 2014,
+      "diretor": "Christopher Nolan",
+      "capa": "/src/img/movies/interestelar.jpg"
+    },
+    {
+      "titulo": "Os Incríveis",
+      "classificacao_indicativa": "Livre",
+      "genero": "Animação",
+      "tempo_duracao": "115 minutos",
+      "elenco": ["Craig T. Nelson", "Holly Hunter", "Samuel L. Jackson"],
+      "ano_lancamento": 2004,
+      "diretor": "Brad Bird",
+      "capa": "/src/img/movies/os-incriveis.jpg"
+    },
+    {
+      "titulo": "Batman: O Cavaleiro das Trevas",
+      "classificacao_indicativa": "14 anos",
+      "genero": "Ação",
+      "tempo_duracao": "152 minutos",
+      "elenco": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      "ano_lancamento": 2008,
+      "diretor": "Christopher Nolan",
+      "capa": "/src/img/movies/cavaleiro-das-trevas.jpg"
+    },
+    {
+      "titulo": "Parasita",
+      "classificacao_indicativa": "16 anos",
+      "genero": "Drama",
+      "tempo_duracao": "132 minutos",
+      "elenco": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+      "ano_lancamento": 2019,
+      "diretor": "Bong Joon Ho",
+      "capa": "/src/img/movies/parasita.png"
+    }
+  ]
+  
