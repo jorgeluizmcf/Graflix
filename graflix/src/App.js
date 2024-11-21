@@ -5,9 +5,9 @@ import MovieSwiper from './components/MovieSwiper';
 import data from './data/data.json'
 function App() {
 
-  const [movies, setMovies] = useState(data);
+  const movies = data;
   const [search, setSearch] = useState("");
-  const [relationship, setRelationship] = useState(data);
+  //const [relationship, setRelationship] = useState(data);
   const [loggedUser, setLoggedUser] = useState("Usuário 1");
   
 
