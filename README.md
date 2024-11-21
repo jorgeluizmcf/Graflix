@@ -1,3 +1,7 @@
+# Acesse o deploy do projeto!
+
+Acesse com o link do deploy a seguir: [Deploy](https://jorgeluizmcf.github.io/Graflix/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
