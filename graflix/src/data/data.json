@@ -7,7 +7,7 @@
       "elenco": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
       "ano_lancamento": 2010,
       "diretor": "Christopher Nolan",
-      "capa": "/src/img/movies/a-origem.jpg"
+      "capa": "/src/img/a-origem.jpg"
     },
     {
       "titulo": "O Poderoso Chefão",
@@ -17,7 +17,7 @@
       "elenco": ["Marlon Brando", "Al Pacino", "James Caan"],
       "ano_lancamento": 1972,
       "diretor": "Francis Ford Coppola",
-      "capa": "/src/img/movies/o-poderoso-chefao.jpg"
+      "capa": "/src/img/o-poderoso-chefao.jpg"
     },
     {
       "titulo": "Forrest Gump: O Contador de Histórias",
@@ -27,7 +27,7 @@
       "elenco": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
       "ano_lancamento": 1994,
       "diretor": "Robert Zemeckis",
-      "capa": "/src/img/movies/forrest-gump.jpg"
+      "capa": "/src/img/forrest-gump.jpg"
     },
     {
       "titulo": "Matrix",
@@ -37,7 +37,7 @@
       "elenco": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
       "ano_lancamento": 1999,
       "diretor": "Lana Wachowski, Lilly Wachowski",
-      "capa": "/src/img/movies/matrix.jpg"
+      "capa": "/src/img/matrix.jpg"
     },
     {
       "titulo": "Pulp Fiction: Tempo de Violência",
@@ -47,7 +47,7 @@
       "elenco": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
       "ano_lancamento": 1994,
       "diretor": "Quentin Tarantino",
-      "capa": "/src/img/movies/pulp-fiction.png"
+      "capa": "/src/img/pulp-fiction.png"
     },
     {
       "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
@@ -57,7 +57,7 @@
       "elenco": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
       "ano_lancamento": 2001,
       "diretor": "Peter Jackson",
-      "capa": "/src/img/movies/senhor-dos-aneis.jpg"
+      "capa": "/src/img/senhor-dos-aneis.jpg"
     },
     {
       "titulo": "Clube da Luta",
@@ -67,7 +67,7 @@
       "elenco": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
       "ano_lancamento": 1999,
       "diretor": "David Fincher",
-      "capa": "/src/img/movies/clube-da-luta.jpg"
+      "capa": "/src/img/clube-da-luta.jpg"
     },
     {
       "titulo": "O Rei Leão",
@@ -77,7 +77,7 @@
       "elenco": ["Matthew Broderick", "James Earl Jones", "Jeremy Irons"],
       "ano_lancamento": 1994,
       "diretor": "Roger Allers, Rob Minkoff",
-      "capa": "/src/img/movies/o-rei-leao.jpg"
+      "capa": "/src/img/o-rei-leao.jpg"
     },
     {
       "titulo": "Gladiador",
@@ -87,7 +87,7 @@
       "elenco": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
       "ano_lancamento": 2000,
       "diretor": "Ridley Scott",
-      "capa": "/src/img/movies/gladiador.jpg"
+      "capa": "/src/img/gladiador.jpg"
     },
     {
       "titulo": "Coringa",
@@ -97,7 +97,7 @@
       "elenco": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
       "ano_lancamento": 2019,
       "diretor": "Todd Phillips",
-      "capa": "/src/img/movies/coringa.jpg"
+      "capa": "/src/img/coringa.jpg"
     },
     {
       "titulo": "Os Vingadores: Ultimato",
@@ -107,7 +107,7 @@
       "elenco": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
       "ano_lancamento": 2019,
       "diretor": "Anthony Russo, Joe Russo",
-      "capa": "/src/img/movies/vingadores-ultimato.jpg"
+      "capa": "/src/img/vingadores-ultimato.jpg"
     },
     {
       "titulo": "Interestelar",
@@ -117,7 +117,7 @@
       "elenco": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
       "ano_lancamento": 2014,
       "diretor": "Christopher Nolan",
-      "capa": "/src/img/movies/interestelar.jpg"
+      "capa": "/src/img/interestelar.jpg"
     },
     {
       "titulo": "Os Incríveis",
@@ -127,7 +127,7 @@
       "elenco": ["Craig T. Nelson", "Holly Hunter", "Samuel L. Jackson"],
       "ano_lancamento": 2004,
       "diretor": "Brad Bird",
-      "capa": "/src/img/movies/os-incriveis.jpg"
+      "capa": "/src/img/os-incriveis.jpg"
     },
     {
       "titulo": "Batman: O Cavaleiro das Trevas",
@@ -137,7 +137,7 @@
       "elenco": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
       "ano_lancamento": 2008,
       "diretor": "Christopher Nolan",
-      "capa": "/src/img/movies/cavaleiro-das-trevas.jpg"
+      "capa": "/src/img/cavaleiro-das-trevas.jpg"
     },
     {
       "titulo": "Parasita",
@@ -147,7 +147,7 @@
       "elenco": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
       "ano_lancamento": 2019,
       "diretor": "Bong Joon Ho",
-      "capa": "/src/img/movies/parasita.png"
+      "capa": "/src/img/parasita.png"
     }
   ]
   
