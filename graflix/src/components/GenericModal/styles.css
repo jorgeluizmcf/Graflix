@@ -1,0 +1,71 @@
+/* Estilo para o fundo do modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Estilo do container do modal */
+  .modal-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+  }
+  
+  /* Estilo do cabeçalho */
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+  }
+  
+  .modal-close-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .modal-close-button:hover {
+    color: red;
+  }
+  
+  /* Estilo do corpo do modal */
+  .modal-body {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .modal-movie-image {
+    max-width: 40%;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .modal-movie-details {
+    flex: 1;
+  }
+  
+  .modal-movie-details h3 {
+    margin-top: 0;
+  }
+  
