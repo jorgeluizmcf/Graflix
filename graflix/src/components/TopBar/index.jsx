@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./styles.css"; // Importar o CSS para estilização
-import Logo from "../../img/logonetflix.png";
 
 const TopBar = ({ search, setSearch, loggedUser, setLoggedUser }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para controlar a visibilidade do dropdown
@@ -27,7 +26,7 @@ const TopBar = ({ search, setSearch, loggedUser, setLoggedUser }) => {
     <div className="top-bar">
       {/* Logo à esquerda */}
       <div className="top-bar-logo">
-        <img src={Logo} alt="Logo" className="logo-image" />
+      <img src="/logo_graflix.png" alt="Logo Graflix" className="logo-image" />
       </div>
 
       {/* Barra de pesquisa ao centro */}
@@ -55,9 +54,15 @@ const TopBar = ({ search, setSearch, loggedUser, setLoggedUser }) => {
           {isMenuOpen && (
             <div className="dropdown-menu">
               <ul>
-                <li onClick={() => handleUserSelection("Usuário 1")}>Usuário 1</li>
-                <li onClick={() => handleUserSelection("Usuário 2")}>Usuário 2</li>
-                <li onClick={() => handleUserSelection("Usuário 3")}>Usuário 3</li>
+                <li onClick={() => handleUserSelection("Usuário 1")}>
+                  Usuário 1
+                </li>
+                <li onClick={() => handleUserSelection("Usuário 2")}>
+                  Usuário 2
+                </li>
+                <li onClick={() => handleUserSelection("Usuário 3")}>
+                  Usuário 3
+                </li>
               </ul>
             </div>
           )}
