@@ -22,7 +22,12 @@
   position: relative;
 }
 
+.logo-image {
+  margin-left: 28px;
+}
+
 .profile-button {
+  margin-right: 28px;
   background-color: #e50914;
   border: none;
   padding: 10px;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css"; // Importar o CSS para estilização
-
+import Logo from "../../img/logo_graflix.png"
 const TopBar = ({ search, setSearch, loggedUser, setLoggedUser }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para controlar a visibilidade do dropdown
   const [selectedUser, setSelectedUser] = useState(loggedUser); // Estado para armazenar o usuário selecionado
@@ -26,7 +26,7 @@ const TopBar = ({ search, setSearch, loggedUser, setLoggedUser }) => {
     <div className="top-bar">
       {/* Logo à esquerda */}
       <div className="top-bar-logo">
-      <img src="/logo_graflix.png" alt="Logo Graflix" className="logo-image" />
+      <img src={Logo} alt="Logo Graflix" className="logo-image" />
       </div>
 
       {/* Barra de pesquisa ao centro */}
