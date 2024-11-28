@@ -1,14 +1,8 @@
 .App {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
   background-color: rgb(58, 58, 58);
 }
-
-.movies-container-swiper {
-}
-
 .movies-container-swiper-title {
   margin-left: 2vw;
   color: aliceblue;

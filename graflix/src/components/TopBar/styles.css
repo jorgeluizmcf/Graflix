@@ -15,14 +15,41 @@
   padding: 5px 10px;
   border-radius: 5px;
   border: none;
-  width: 300px;
+  width: 500px;
 }
 
 .top-bar-profile {
   position: relative;
 }
 
+.logo-image {
+  margin-left: 28px;
+}
+
+.search-input {
+  width: 100%; /* Faz o campo de busca ocupar toda a largura disponível */
+  max-width: 500px; /* Limita a largura máxima para não ficar muito largo */
+  padding: 12px 20px; /* Adiciona preenchimento interno para tornar o campo mais espaçoso */
+  font-size: 16px; /* Aumenta o tamanho da fonte */
+  border: 2px solid #ccc; /* Define a cor da borda */
+  border-radius: 8px; /* Arredonda as bordas */
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  transition: all 0.3s ease; /* Transição suave para os efeitos de foco */
+}
+
+.search-input:focus {
+  border-color: #e50914; /* Altera a cor da borda quando o campo estiver em foco */
+  outline: none; /* Remove o contorno padrão do navegador */
+  background-color: #fff; /* Altera a cor de fundo quando estiver em foco */
+}
+
+.search-input::placeholder {
+  color: #888; /* Cor suave para o texto do placeholder */
+  font-style: italic; /* Estilo itálico para o placeholder */
+}
+
 .profile-button {
+  margin-right: 28px;
   background-color: #e50914;
   border: none;
   padding: 10px;

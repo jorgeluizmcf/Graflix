@@ -9,7 +9,7 @@ const MovieSwiper = ({ movies }) => {
   // Função que abre o modal e define o filme selecionado
   const handleMovieClick = (movie) => {
     setSelectedMovie(movie);
-    setModalOpen(true);
+    setModalOpen(!modalOpen);
   };
 
   return (
@@ -22,7 +22,7 @@ const MovieSwiper = ({ movies }) => {
             className="movie-item"
             onClick={() => handleMovieClick(movie)}
           >
-            <img src={movie.image} alt={movie.title} className="movie-image" />
+            <img src={require(`../../img/${movie.capa}`)} alt={movie.titulo} className="movie-image" />
           </div>
         ))}
       </div>
@@ -31,11 +31,11 @@ const MovieSwiper = ({ movies }) => {
       {modalOpen && selectedMovie && (
         <GenericModal
           movie={selectedMovie}
-          title={selectedMovie.title}
-          width={600}  // Largura do modal
-          height={400} // Altura do modal
+          title={selectedMovie.titulo}
+          width={80}  // Largura do modal
+          height={64} // Altura do modal
           open={modalOpen}
-          setOpen={setModalOpen}
+          setIsOpen={setModalOpen}
         />
       )}
     </div>
