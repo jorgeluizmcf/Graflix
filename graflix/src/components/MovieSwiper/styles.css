@@ -4,6 +4,10 @@
   
   .movie-swiper-container {
     display: flex;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 28px;
+    padding-right: 28px;
     overflow-x: scroll;
     gap: 15px;
     scroll-snap-type: x mandatory;

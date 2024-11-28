@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "titulo": "A Origem",
     "classificacao_indicativa": "14 anos",
     "genero": "Ficção Científica",
@@ -7,10 +8,11 @@
     "elenco": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
     "ano_lancamento": 2010,
     "diretor": "Christopher Nolan",
-    "capa": "/src/img/a-origem.jpg",
+    "capa": "a-origem.jpg",
     "sinopse": "Dom Cobb é um ladrão habilidoso, especializado em roubar segredos valiosos do subconsciente durante o estado dos sonhos, quando a mente está mais vulnerável."
   },
   {
+    "id": 2,
     "titulo": "O Poderoso Chefão",
     "classificacao_indicativa": "18 anos",
     "genero": "Drama",
@@ -18,10 +20,11 @@
     "elenco": ["Marlon Brando", "Al Pacino", "James Caan"],
     "ano_lancamento": 1972,
     "diretor": "Francis Ford Coppola",
-    "capa": "/src/img/o-poderoso-chefao.jpg",
+    "capa": "o-poderoso-chefao.jpg",
     "sinopse": "A saga de uma poderosa família de mafiosos liderada por Don Vito Corleone, enquanto navegam pelos perigosos mundos do crime organizado e da lealdade."
   },
   {
+    "id": 3,
     "titulo": "Forrest Gump: O Contador de Histórias",
     "classificacao_indicativa": "12 anos",
     "genero": "Drama",
@@ -29,10 +32,11 @@
     "elenco": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
     "ano_lancamento": 1994,
     "diretor": "Robert Zemeckis",
-    "capa": "/src/img/forrest-gump.jpg",
+    "capa": "forrest-gump.jpg",
     "sinopse": "Forrest Gump, um homem com um coração puro, narra sua extraordinária vida enquanto influencia grandes momentos da história americana."
   },
   {
+    "id": 4,
     "titulo": "Matrix",
     "classificacao_indicativa": "16 anos",
     "genero": "Ficção Científica",
@@ -40,10 +44,11 @@
     "elenco": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
     "ano_lancamento": 1999,
     "diretor": "Lana Wachowski, Lilly Wachowski",
-    "capa": "/src/img/matrix.jpg",
+    "capa": "matrix.jpg",
     "sinopse": "Neo descobre que sua realidade é uma simulação virtual criada por máquinas e decide lutar pela liberdade da humanidade."
   },
   {
+    "id": 5,
     "titulo": "Pulp Fiction: Tempo de Violência",
     "classificacao_indicativa": "18 anos",
     "genero": "Crime",
@@ -51,10 +56,11 @@
     "elenco": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
     "ano_lancamento": 1994,
     "diretor": "Quentin Tarantino",
-    "capa": "/src/img/pulp-fiction.png",
+    "capa": "pulp-fiction.png",
     "sinopse": "Histórias entrelaçadas de violência e redenção giram em torno de personagens inesquecíveis no submundo do crime de Los Angeles."
   },
   {
+    "id": 6,
     "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
     "classificacao_indicativa": "12 anos",
     "genero": "Fantasia",
@@ -62,10 +68,11 @@
     "elenco": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
     "ano_lancamento": 2001,
     "diretor": "Peter Jackson",
-    "capa": "/src/img/senhor-dos-aneis.jpg",
+    "capa": "senhor-dos-aneis.jpg",
     "sinopse": "Frodo Bolseiro e seus amigos embarcam em uma jornada épica para destruir o Um Anel e derrotar Sauron, o Senhor das Trevas."
   },
   {
+    "id": 7,
     "titulo": "Clube da Luta",
     "classificacao_indicativa": "18 anos",
     "genero": "Drama",
@@ -73,10 +80,11 @@
     "elenco": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
     "ano_lancamento": 1999,
     "diretor": "David Fincher",
-    "capa": "/src/img/clube-da-luta.jpg",
+    "capa": "clube-da-luta.jpg",
     "sinopse": "Um homem insatisfeito com sua vida forma um clube secreto de luta, que evolui para algo muito maior e perigoso."
   },
   {
+    "id": 8,
     "titulo": "O Rei Leão",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -84,10 +92,11 @@
     "elenco": ["Matthew Broderick", "James Earl Jones", "Jeremy Irons"],
     "ano_lancamento": 1994,
     "diretor": "Roger Allers, Rob Minkoff",
-    "capa": "/src/img/o-rei-leao.jpg",
+    "capa": "o-rei-leao.jpg",
     "sinopse": "A história de Simba, um jovem leão que luta para aceitar seu destino como rei da savana após a tragédia em sua família."
   },
   {
+    "id": 9,
     "titulo": "Gladiador",
     "classificacao_indicativa": "16 anos",
     "genero": "Ação",
@@ -95,10 +104,11 @@
     "elenco": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
     "ano_lancamento": 2000,
     "diretor": "Ridley Scott",
-    "capa": "/src/img/gladiador.jpg",
+    "capa": "gladiador.jpg",
     "sinopse": "Maximus, um general romano traído, busca vingança contra o imperador corrupto que destruiu sua família e roubou sua liberdade."
   },
   {
+    "id": 10,
     "titulo": "Coringa",
     "classificacao_indicativa": "18 anos",
     "genero": "Drama",
@@ -106,10 +116,11 @@
     "elenco": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
     "ano_lancamento": 2019,
     "diretor": "Todd Phillips",
-    "capa": "/src/img/coringa.jpg",
+    "capa": "coringa.jpg",
     "sinopse": "A transformação de Arthur Fleck em Coringa, explorando sua luta com a saúde mental e a crueldade da sociedade."
   },
   {
+    "id": 11,
     "titulo": "Os Vingadores: Ultimato",
     "classificacao_indicativa": "12 anos",
     "genero": "Ação",
@@ -117,10 +128,11 @@
     "elenco": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
     "ano_lancamento": 2019,
     "diretor": "Anthony Russo, Joe Russo",
-    "capa": "/src/img/vingadores-ultimato.jpg",
+    "capa": "vingadores-ultimato.jpg",
     "sinopse": "Os Vingadores remanescentes unem forças para reverter o estalo de Thanos e restaurar o universo."
   },
   {
+    "id": 12,
     "titulo": "Interestelar",
     "classificacao_indicativa": "10 anos",
     "genero": "Ficção Científica",
@@ -128,10 +140,11 @@
     "elenco": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
     "ano_lancamento": 2014,
     "diretor": "Christopher Nolan",
-    "capa": "/src/img/interestelar.jpg",
+    "capa": "interestelar.jpg",
     "sinopse": "Um grupo de astronautas embarca em uma jornada através de um buraco de minhoca para salvar a humanidade."
   },
   {
+    "id": 13,
     "titulo": "Os Incríveis",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -139,10 +152,11 @@
     "elenco": ["Craig T. Nelson", "Holly Hunter", "Samuel L. Jackson"],
     "ano_lancamento": 2004,
     "diretor": "Brad Bird",
-    "capa": "/src/img/os-incriveis.jpg",
+    "capa": "os-incriveis.jpg",
     "sinopse": "Uma família de super-heróis precisa trabalhar em conjunto para salvar o mundo, enquanto enfrentam desafios cotidianos."
   },
   {
+    "id": 14,
     "titulo": "Batman: O Cavaleiro das Trevas",
     "classificacao_indicativa": "14 anos",
     "genero": "Ação",
@@ -150,10 +164,11 @@
     "elenco": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     "ano_lancamento": 2008,
     "diretor": "Christopher Nolan",
-    "capa": "/src/img/cavaleiro-das-trevas.jpg",
+    "capa": "cavaleiro-das-trevas.jpg",
     "sinopse": "Batman enfrenta seu maior inimigo, o Coringa, enquanto tenta salvar Gotham de uma nova onda de caos."
   },
   {
+    "id": 15,
     "titulo": "Parasita",
     "classificacao_indicativa": "16 anos",
     "genero": "Drama",
@@ -161,10 +176,11 @@
     "elenco": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
     "ano_lancamento": 2019,
     "diretor": "Bong Joon Ho",
-    "capa": "/src/img/parasita.png",
+    "capa": "parasita.png",
     "sinopse": "Uma família pobre se infiltra na vida de uma família rica, levando a consequências inesperadas e trágicas."
   },
   {
+    "id": 16,
     "titulo": "A Teoria de Tudo",
     "classificacao_indicativa": "10 anos",
     "genero": "Drama",
@@ -172,10 +188,11 @@
     "elenco": ["Eddie Redmayne", "Felicity Jones", "Charlie Cox"],
     "ano_lancamento": 2014,
     "diretor": "James Marsh",
-    "capa": "/src/img/a-teoria-de-tudo.jpg",
+    "capa": "a-teoria-de-tudo.jpg",
     "sinopse": "A emocionante história de Stephen Hawking e sua luta contra a esclerose lateral amiotrófica enquanto desenvolve teorias revolucionárias sobre o universo."
   },
   {
+    "id": 17,
     "titulo": "A Vida é Bela",
     "classificacao_indicativa": "12 anos",
     "genero": "Drama",
@@ -183,10 +200,11 @@
     "elenco": ["Roberto Benigni", "Nicoletta Braschi", "Giorgio Cantarini"],
     "ano_lancamento": 1997,
     "diretor": "Roberto Benigni",
-    "capa": "/src/img/a-vida-e-bela.jpg",
+    "capa": "a-vida-e-bela.jpg",
     "sinopse": "Durante a Segunda Guerra Mundial, um pai faz de tudo para proteger seu filho dos horrores do campo de concentração, transformando a tragédia em um jogo."
   },
   {
+    "id": 18,
     "titulo": "Homem-Aranha: Sem Volta Para Casa",
     "classificacao_indicativa": "12 anos",
     "genero": "Ação",
@@ -194,10 +212,11 @@
     "elenco": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
     "ano_lancamento": 2021,
     "diretor": "Jon Watts",
-    "capa": "/src/img/homem-aranha-sem-volta.jpg",
+    "capa": "homem-aranha-sem-volta.jpg",
     "sinopse": "Peter Parker enfrenta o multiverso e precisa unir forças com versões alternativas de si mesmo para restaurar o equilíbrio."
   },
   {
+    "id": 19,
     "titulo": "A Dama e o Vagabundo",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -205,10 +224,11 @@
     "elenco": ["Barbara Luddy", "Larry Roberts", "Peggy Lee"],
     "ano_lancamento": 1955,
     "diretor": "Clyde Geronimi, Wilfred Jackson",
-    "capa": "/src/img/dama-e-o-vagabundo.jpg",
+    "capa": "dama-e-o-vagabundo.jpg",
     "sinopse": "Uma cativante história de amor entre uma cadela aristocrata e um vira-lata aventureiro."
   },
   {
+    "id": 20,
     "titulo": "O Grande Gatsby",
     "classificacao_indicativa": "14 anos",
     "genero": "Drama",
@@ -216,10 +236,11 @@
     "elenco": ["Leonardo DiCaprio", "Carey Mulligan", "Tobey Maguire"],
     "ano_lancamento": 2013,
     "diretor": "Baz Luhrmann",
-    "capa": "/src/img/o-grande-gatsby.jpg",
+    "capa": "o-grande-gatsby.jpg",
     "sinopse": "Um misterioso milionário, Jay Gatsby, tenta reconquistar o amor de sua vida enquanto vive uma vida de luxo e excessos na década de 1920."
   },
   {
+    "id": 21,
     "titulo": "O Lobo de Wall Street",
     "classificacao_indicativa": "18 anos",
     "genero": "Comédia",
@@ -227,10 +248,11 @@
     "elenco": ["Leonardo DiCaprio", "Jonah Hill", "Margot Robbie"],
     "ano_lancamento": 2013,
     "diretor": "Martin Scorsese",
-    "capa": "/src/img/o-lobo-de-wall-street.jpg",
+    "capa": "o-lobo-de-wall-street.jpg",
     "sinopse": "A ascensão e queda de Jordan Belfort, um corretor ambicioso de Wall Street que mergulha no mundo do excesso e da corrupção."
   },
   {
+    "id": 22,
     "titulo": "Um Sonho de Liberdade",
     "classificacao_indicativa": "16 anos",
     "genero": "Drama",
@@ -238,10 +260,11 @@
     "elenco": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
     "ano_lancamento": 1994,
     "diretor": "Frank Darabont",
-    "capa": "/src/img/um-sonho-de-liberdade.jpg",
+    "capa": "um-sonho-de-liberdade.jpg",
     "sinopse": "Condenado por um crime que não cometeu, Andy Dufresne encontra esperança e amizade em uma prisão brutal."
   },
   {
+    "id": 23,
     "titulo": "V de Vingança",
     "classificacao_indicativa": "16 anos",
     "genero": "Ação",
@@ -249,10 +272,11 @@
     "elenco": ["Natalie Portman", "Hugo Weaving", "Stephen Rea"],
     "ano_lancamento": 2005,
     "diretor": "James McTeigue",
-    "capa": "/src/img/v-de-vinganca.jpg",
+    "capa": "v-de-vinganca.jpg",
     "sinopse": "Um vigilante mascarado luta contra um governo totalitário, inspirando a revolução em um futuro distópico."
   },
   {
+    "id": 24,
     "titulo": "A Chegada",
     "classificacao_indicativa": "12 anos",
     "genero": "Ficção Científica",
@@ -260,10 +284,11 @@
     "elenco": ["Amy Adams", "Jeremy Renner", "Forest Whitaker"],
     "ano_lancamento": 2016,
     "diretor": "Denis Villeneuve",
-    "capa": "/src/img/a-chegada.jpg",
+    "capa": "a-chegada.jpg",
     "sinopse": "Quando naves alienígenas chegam à Terra, uma linguista é recrutada para decifrar sua linguagem e evitar um conflito global."
   },
   {
+    "id": 25,
     "titulo": "Pantera Negra",
     "classificacao_indicativa": "12 anos",
     "genero": "Ação",
@@ -271,10 +296,11 @@
     "elenco": ["Chadwick Boseman", "Lupita Nyong'o", "Michael B. Jordan"],
     "ano_lancamento": 2018,
     "diretor": "Ryan Coogler",
-    "capa": "/src/img/pantera-negra.jpg",
+    "capa": "pantera-negra.jpg",
     "sinopse": "T'Challa retorna a Wakanda para assumir o trono e enfrentar ameaças que podem destruir seu reino."
   },
   {
+    "id": 26,
     "titulo": "A Forma da Água",
     "classificacao_indicativa": "16 anos",
     "genero": "Fantasia",
@@ -282,10 +308,11 @@
     "elenco": ["Sally Hawkins", "Michael Shannon", "Octavia Spencer"],
     "ano_lancamento": 2017,
     "diretor": "Guillermo del Toro",
-    "capa": "/src/img/a-forma-da-agua.jpg",
+    "capa": "a-forma-da-agua.jpg",
     "sinopse": "Uma faxineira muda se apaixona por uma criatura aquática mantida em cativeiro em um laboratório secreto."
   },
   {
+    "id": 27,
     "titulo": "Whiplash: Em Busca da Perfeição",
     "classificacao_indicativa": "14 anos",
     "genero": "Drama",
@@ -293,10 +320,11 @@
     "elenco": ["Miles Teller", "J.K. Simmons", "Paul Reiser"],
     "ano_lancamento": 2014,
     "diretor": "Damien Chazelle",
-    "capa": "/src/img/whiplash.jpg",
+    "capa": "whiplash.jpg",
     "sinopse": "Um jovem baterista ambicioso enfrenta os métodos brutais de um professor de música implacável."
   },
   {
+    "id": 28,
     "titulo": "Cisne Negro",
     "classificacao_indicativa": "16 anos",
     "genero": "Drama",
@@ -304,10 +332,11 @@
     "elenco": ["Natalie Portman", "Mila Kunis", "Vincent Cassel"],
     "ano_lancamento": 2010,
     "diretor": "Darren Aronofsky",
-    "capa": "/src/img/cisne-negro.jpg",
+    "capa": "cisne-negro.jpg",
     "sinopse": "Uma bailarina busca a perfeição em uma performance, mas acaba perdendo sua sanidade no processo."
   },
   {
+    "id": 29,
     "titulo": "Django Livre",
     "classificacao_indicativa": "18 anos",
     "genero": "Western",
@@ -315,10 +344,11 @@
     "elenco": ["Jamie Foxx", "Christoph Waltz", "Leonardo DiCaprio"],
     "ano_lancamento": 2012,
     "diretor": "Quentin Tarantino",
-    "capa": "/src/img/django-livre.jpg",
+    "capa": "django-livre.jpg",
     "sinopse": "Um escravo liberto se junta a um caçador de recompensas para resgatar sua esposa de um fazendeiro cruel."
   },
   {
+    "id": 30,
     "titulo": "Gravidade",
     "classificacao_indicativa": "12 anos",
     "genero": "Ficção Científica",
@@ -326,10 +356,11 @@
     "elenco": ["Sandra Bullock", "George Clooney"],
     "ano_lancamento": 2013,
     "diretor": "Alfonso Cuarón",
-    "capa": "/src/img/gravidade.jpg",
+    "capa": "gravidade.jpg",
     "sinopse": "Dois astronautas ficam presos no espaço após um acidente e lutam para sobreviver."
   },
   {
+    "id": 31,
     "titulo": "Frozen: Uma Aventura Congelante",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -337,10 +368,11 @@
     "elenco": ["Idina Menzel", "Kristen Bell", "Josh Gad"],
     "ano_lancamento": 2013,
     "diretor": "Chris Buck, Jennifer Lee",
-    "capa": "/src/img/frozen.jpg",
+    "capa": "frozen.jpg",
     "sinopse": "Anna e Kristoff embarcam em uma aventura para encontrar Elsa, cujos poderes congelantes prenderam seu reino em um inverno eterno."
   },
   {
+    "id": 32,
     "titulo": "Toy Story",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -348,10 +380,11 @@
     "elenco": ["Tom Hanks", "Tim Allen", "Don Rickles"],
     "ano_lancamento": 1995,
     "diretor": "John Lasseter",
-    "capa": "/src/img/toy-story.jpg",
+    "capa": "toy-story.jpg",
     "sinopse": "Os brinquedos de Andy ganham vida e precisam lidar com a chegada de um novo competidor, Buzz Lightyear."
   },
   {
+    "id": 33,
     "titulo": "Procurando Nemo",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -359,10 +392,11 @@
     "elenco": ["Albert Brooks", "Ellen DeGeneres", "Alexander Gould"],
     "ano_lancamento": 2003,
     "diretor": "Andrew Stanton, Lee Unkrich",
-    "capa": "/src/img/procurando-nemo.jpg",
+    "capa": "procurando-nemo.jpg",
     "sinopse": "Marlin, um peixe-palhaço, viaja pelo oceano para resgatar seu filho Nemo, que foi capturado por um mergulhador."
   },
   {
+    "id": 34,
     "titulo": "Shrek",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -370,10 +404,11 @@
     "elenco": ["Mike Myers", "Eddie Murphy", "Cameron Diaz"],
     "ano_lancamento": 2001,
     "diretor": "Andrew Adamson, Vicky Jenson",
-    "capa": "/src/img/shrek.jpg",
+    "capa": "shrek.jpg",
     "sinopse": "Shrek, um ogro recluso, embarca em uma missão para resgatar a princesa Fiona em troca de recuperar sua casa."
   },
   {
+    "id": 35,
     "titulo": "Monstros S.A.",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -381,10 +416,11 @@
     "elenco": ["Billy Crystal", "John Goodman", "Mary Gibbs"],
     "ano_lancamento": 2001,
     "diretor": "Pete Docter",
-    "capa": "/src/img/monstros-sa.jpg",
+    "capa": "monstros-sa.jpg",
     "sinopse": "Dois monstros, Mike e Sulley, enfrentam problemas quando uma menina humana acidentalmente entra em sua fábrica."
   },
   {
+    "id": 36,
     "titulo": "Os Croods",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -392,10 +428,11 @@
     "elenco": ["Nicolas Cage", "Emma Stone", "Ryan Reynolds"],
     "ano_lancamento": 2013,
     "diretor": "Kirk DeMicco, Chris Sanders",
-    "capa": "/src/img/os-croods.jpg",
+    "capa": "os-croods.jpg",
     "sinopse": "Uma família pré-histórica embarca em uma aventura quando sua caverna é destruída, descobrindo um mundo cheio de perigos e maravilhas."
   },
   {
+    "id": 37,
     "titulo": "Encanto",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -403,10 +440,11 @@
     "elenco": ["Stephanie Beatriz", "John Leguizamo", "Diane Guerrero"],
     "ano_lancamento": 2021,
     "diretor": "Jared Bush, Byron Howard",
-    "capa": "/src/img/encanto.jpg",
+    "capa": "encanto.jpg",
     "sinopse": "Mirabel, a única sem poderes em sua família mágica, tenta salvar o encanto que mantém sua casa unida."
   },
   {
+    "id": 38,
     "titulo": "Moana: Um Mar de Aventuras",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -414,10 +452,11 @@
     "elenco": ["Auli'i Cravalho", "Dwayne Johnson", "Rachel House"],
     "ano_lancamento": 2016,
     "diretor": "Ron Clements, John Musker",
-    "capa": "/src/img/moana.jpg",
+    "capa": "moana.jpg",
     "sinopse": "Moana, a filha do chefe de uma tribo polinésia, navega pelo oceano para salvar sua ilha e descobre seu verdadeiro destino."
   },
   {
+    "id": 39,
     "titulo": "Kung Fu Panda",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -425,10 +464,11 @@
     "elenco": ["Jack Black", "Dustin Hoffman", "Angelina Jolie"],
     "ano_lancamento": 2008,
     "diretor": "Mark Osborne, John Stevenson",
-    "capa": "/src/img/kung-fu-panda.jpg",
+    "capa": "kung-fu-panda.jpg",
     "sinopse": "Po, um panda atrapalhado, é escolhido como o Guerreiro Dragão e precisa salvar seu vale de um vilão poderoso."
   },
   {
+    "id": 40,
     "titulo": "Divertida Mente",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -436,10 +476,11 @@
     "elenco": ["Amy Poehler", "Phyllis Smith", "Richard Kind"],
     "ano_lancamento": 2015,
     "diretor": "Pete Docter, Ronnie del Carmen",
-    "capa": "/src/img/divertida-mente.jpg",
+    "capa": "divertida-mente.jpg",
     "sinopse": "As emoções de uma jovem, Alegria, Tristeza, Raiva, Nojinho e Medo, lutam para ajudá-la em uma mudança difícil."
   },
   {
+    "id": 41,
     "titulo": "Zootopia: Essa Cidade é o Bicho",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -447,10 +488,11 @@
     "elenco": ["Ginnifer Goodwin", "Jason Bateman", "Idris Elba"],
     "ano_lancamento": 2016,
     "diretor": "Byron Howard, Rich Moore",
-    "capa": "/src/img/zootopia.jpg",
+    "capa": "zootopia.jpg",
     "sinopse": "Em uma cidade de animais, uma coelha policial e uma raposa golpista trabalham juntos para resolver um grande mistério."
   },
   {
+    "id": 42,
     "titulo": "Carros",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -458,10 +500,11 @@
     "elenco": ["Owen Wilson", "Paul Newman", "Bonnie Hunt"],
     "ano_lancamento": 2006,
     "diretor": "John Lasseter, Joe Ranft",
-    "capa": "/src/img/carros.jpg",
+    "capa": "carros.jpg",
     "sinopse": "Relâmpago McQueen, um carro de corrida, descobre o verdadeiro significado da amizade ao parar em uma cidade esquecida."
   },
   {
+    "id": 43,
     "titulo": "Valente",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -469,10 +512,11 @@
     "elenco": ["Kelly Macdonald", "Billy Connolly", "Emma Thompson"],
     "ano_lancamento": 2012,
     "diretor": "Mark Andrews, Brenda Chapman",
-    "capa": "/src/img/valente.jpg",
+    "capa": "valente.jpg",
     "sinopse": "Merida, uma princesa escocesa, desafia tradições e luta para desfazer uma maldição que colocou sua mãe em perigo."
   },
   {
+    "id": 44,
     "titulo": "Viva: A Vida é uma Festa",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -480,10 +524,11 @@
     "elenco": ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt"],
     "ano_lancamento": 2017,
     "diretor": "Lee Unkrich, Adrian Molina",
-    "capa": "/src/img/viva.jpg",
+    "capa": "viva.jpg",
     "sinopse": "Miguel, um jovem aspirante a músico, embarca em uma jornada pela Terra dos Mortos para descobrir os segredos de sua família."
   },
   {
+    "id": 45,
     "titulo": "Ratatouille",
     "classificacao_indicativa": "Livre",
     "genero": "Animação",
@@ -491,10 +536,11 @@
     "elenco": ["Patton Oswalt", "Ian Holm", "Lou Romano"],
     "ano_lancamento": 2007,
     "diretor": "Brad Bird, Jan Pinkava",
-    "capa": "/src/img/ratatouille.jpg",
+    "capa": "ratatouille.jpg",
     "sinopse": "Remy, um rato apaixonado por culinária, forma uma parceria improvável com um jovem cozinheiro para alcançar seu sonho de ser chef."
   },
   {
+    "id": 46,
     "titulo": "Invocação do Mal",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -502,10 +548,11 @@
     "elenco": ["Patrick Wilson", "Vera Farmiga", "Lili Taylor"],
     "ano_lancamento": 2013,
     "diretor": "James Wan",
-    "capa": "/src/img/invocacao-do-mal.jpg",
+    "capa": "invocacao-do-mal.jpg",
     "sinopse": "Os investigadores paranormais Ed e Lorraine Warren ajudam uma família aterrorizada por uma presença sombria em sua casa de campo."
   },
   {
+    "id": 47,
     "titulo": "O Exorcista",
     "classificacao_indicativa": "18 anos",
     "genero": "Terror",
@@ -513,10 +560,11 @@
     "elenco": ["Ellen Burstyn", "Max von Sydow", "Linda Blair"],
     "ano_lancamento": 1973,
     "diretor": "William Friedkin",
-    "capa": "/src/img/o-exorcista.jpg",
+    "capa": "o-exorcista.jpg",
     "sinopse": "Uma jovem é possuída por uma entidade demoníaca, e sua mãe busca a ajuda de dois padres para realizar um exorcismo."
   },
   {
+    "id": 48,
     "titulo": "Hereditário",
     "classificacao_indicativa": "18 anos",
     "genero": "Terror",
@@ -524,10 +572,11 @@
     "elenco": ["Toni Collette", "Alex Wolff", "Milly Shapiro"],
     "ano_lancamento": 2018,
     "diretor": "Ari Aster",
-    "capa": "/src/img/hereditario.jpg",
+    "capa": "hereditario.jpg",
     "sinopse": "Após a morte da matriarca da família, segredos sombrios são revelados e eventos aterrorizantes começam a acontecer."
   },
   {
+    "id": 49,
     "titulo": "Corra!",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -535,10 +584,11 @@
     "elenco": ["Daniel Kaluuya", "Allison Williams", "Bradley Whitford"],
     "ano_lancamento": 2017,
     "diretor": "Jordan Peele",
-    "capa": "/src/img/corra.jpg",
+    "capa": "corra.jpg",
     "sinopse": "Um jovem negro descobre segredos sombrios durante uma visita à família de sua namorada branca."
   },
   {
+    "id": 50,
     "titulo": "It: A Coisa",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -546,10 +596,11 @@
     "elenco": ["Bill Skarsgård", "Jaeden Martell", "Finn Wolfhard"],
     "ano_lancamento": 2017,
     "diretor": "Andy Muschietti",
-    "capa": "/src/img/it-a-coisa.jpg",
+    "capa": "it-a-coisa.jpg",
     "sinopse": "Um grupo de crianças enfrenta um palhaço demoníaco que se alimenta de seus medos em uma pequena cidade."
   },
   {
+    "id": 51,
     "titulo": "Halloween: A Noite do Terror",
     "classificacao_indicativa": "18 anos",
     "genero": "Terror",
@@ -557,10 +608,11 @@
     "elenco": ["Jamie Lee Curtis", "Donald Pleasence", "Nick Castle"],
     "ano_lancamento": 1978,
     "diretor": "John Carpenter",
-    "capa": "/src/img/halloween.jpg",
+    "capa": "halloween.jpg",
     "sinopse": "Michael Myers, um assassino em série, retorna à sua cidade natal para perseguir uma jovem e seus amigos no Halloween."
   },
   {
+    "id": 52,
     "titulo": "A Bruxa",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -568,10 +620,11 @@
     "elenco": ["Anya Taylor-Joy", "Ralph Ineson", "Kate Dickie"],
     "ano_lancamento": 2015,
     "diretor": "Robert Eggers",
-    "capa": "/src/img/a-bruxa.jpg",
+    "capa": "a-bruxa.jpg",
     "sinopse": "Uma família puritana do século XVII enfrenta forças malignas em sua fazenda isolada."
   },
   {
+    "id": 53,
     "titulo": "O Iluminado",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -579,10 +632,11 @@
     "elenco": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd"],
     "ano_lancamento": 1980,
     "diretor": "Stanley Kubrick",
-    "capa": "/src/img/o-iluminado.jpg",
+    "capa": "o-iluminado.jpg",
     "sinopse": "Um escritor se torna violento ao ser isolado com sua família em um hotel assombrado."
   },
   {
+    "id": 54,
     "titulo": "Jogos Mortais",
     "classificacao_indicativa": "18 anos",
     "genero": "Terror",
@@ -590,10 +644,11 @@
     "elenco": ["Cary Elwes", "Leigh Whannell", "Danny Glover"],
     "ano_lancamento": 2004,
     "diretor": "James Wan",
-    "capa": "/src/img/jogos-mortais.jpg",
+    "capa": "jogos-mortais.jpg",
     "sinopse": "Duas pessoas presas em um banheiro devem seguir as regras de um jogo macabro para sobreviver."
   },
   {
+    "id": 55,
     "titulo": "Um Lugar Silencioso",
     "classificacao_indicativa": "14 anos",
     "genero": "Terror",
@@ -601,10 +656,11 @@
     "elenco": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
     "ano_lancamento": 2018,
     "diretor": "John Krasinski",
-    "capa": "/src/img/um-lugar-silencioso.jpg",
+    "capa": "um-lugar-silencioso.jpg",
     "sinopse": "Uma família tenta sobreviver em silêncio em um mundo onde criaturas mortais caçam pelo som."
   },
   {
+    "id": 56,
     "titulo": "A Entidade",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -612,10 +668,11 @@
     "elenco": ["Ethan Hawke", "Juliet Rylance", "James Ransone"],
     "ano_lancamento": 2012,
     "diretor": "Scott Derrickson",
-    "capa": "/src/img/a-entidade.jpg",
+    "capa": "a-entidade.jpg",
     "sinopse": "Um escritor encontra vídeos perturbadores em sua nova casa que revelam assassinatos sobrenaturais."
   },
   {
+    "id": 57,
     "titulo": "Midsommar: O Mal Não Espera a Noite",
     "classificacao_indicativa": "18 anos",
     "genero": "Terror",
@@ -623,10 +680,11 @@
     "elenco": ["Florence Pugh", "Jack Reynor", "William Jackson Harper"],
     "ano_lancamento": 2019,
     "diretor": "Ari Aster",
-    "capa": "/src/img/midsommar.jpg",
+    "capa": "midsommar.jpg",
     "sinopse": "Um casal viaja para um festival de verão em uma vila isolada que rapidamente se torna aterrorizante."
   },
   {
+    "id": 58,
     "titulo": "O Grito",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -634,10 +692,11 @@
     "elenco": ["Sarah Michelle Gellar", "Jason Behr", "Clea DuVall"],
     "ano_lancamento": 2004,
     "diretor": "Takashi Shimizu",
-    "capa": "/src/img/o-grito.jpg",
+    "capa": "o-grito.jpg",
     "sinopse": "Uma maldição mortal assombra todos que entram em uma casa marcada por uma tragédia terrível."
   },
   {
+    "id": 59,
     "titulo": "A Morte do Demônio",
     "classificacao_indicativa": "18 anos",
     "genero": "Terror",
@@ -645,10 +704,11 @@
     "elenco": ["Jane Levy", "Shiloh Fernandez", "Jessica Lucas"],
     "ano_lancamento": 2013,
     "diretor": "Fede Alvarez",
-    "capa": "/src/img/a-morte-do-demonio.jpg",
+    "capa": "a-morte-do-demonio.jpg",
     "sinopse": "Cinco amigos descobrem um livro amaldiçoado e inadvertidamente liberam um demônio mortal."
   },
   {
+    "id": 60,
     "titulo": "Annabelle",
     "classificacao_indicativa": "16 anos",
     "genero": "Terror",
@@ -656,7 +716,7 @@
     "elenco": ["Annabelle Wallis", "Ward Horton", "Alfre Woodard"],
     "ano_lancamento": 2014,
     "diretor": "John R. Leonetti",
-    "capa": "/src/img/annabelle.jpg",
+    "capa": "annabelle.jpg",
     "sinopse": "Uma boneca aparentemente inofensiva se torna o receptáculo de uma entidade demoníaca."
   }
 ]
