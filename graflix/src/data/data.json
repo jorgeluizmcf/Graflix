@@ -9,7 +9,8 @@
     "ano_lancamento": 2010,
     "diretor": "Christopher Nolan",
     "capa": "a-origem.jpg",
-    "sinopse": "Dom Cobb é um ladrão habilidoso, especializado em roubar segredos valiosos do subconsciente durante o estado dos sonhos, quando a mente está mais vulnerável."
+    "sinopse": "Dom Cobb é um ladrão habilidoso, especializado em roubar segredos valiosos do subconsciente durante o estado dos sonhos, quando a mente está mais vulnerável.",
+    "watched": []
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "ano_lancamento": 1972,
     "diretor": "Francis Ford Coppola",
     "capa": "o-poderoso-chefao.jpg",
-    "sinopse": "A saga de uma poderosa família de mafiosos liderada por Don Vito Corleone, enquanto navegam pelos perigosos mundos do crime organizado e da lealdade."
+    "sinopse": "A saga de uma poderosa família de mafiosos liderada por Don Vito Corleone, enquanto navegam pelos perigosos mundos do crime organizado e da lealdade.",
+    "watched": []
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "ano_lancamento": 1994,
     "diretor": "Robert Zemeckis",
     "capa": "forrest-gump.jpg",
-    "sinopse": "Forrest Gump, um homem com um coração puro, narra sua extraordinária vida enquanto influencia grandes momentos da história americana."
+    "sinopse": "Forrest Gump, um homem com um coração puro, narra sua extraordinária vida enquanto influencia grandes momentos da história americana.",
+    "watched": []
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "ano_lancamento": 1999,
     "diretor": "Lana Wachowski, Lilly Wachowski",
     "capa": "matrix.jpg",
-    "sinopse": "Neo descobre que sua realidade é uma simulação virtual criada por máquinas e decide lutar pela liberdade da humanidade."
+    "sinopse": "Neo descobre que sua realidade é uma simulação virtual criada por máquinas e decide lutar pela liberdade da humanidade.",
+    "watched": []
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "ano_lancamento": 1994,
     "diretor": "Quentin Tarantino",
     "capa": "pulp-fiction.png",
-    "sinopse": "Histórias entrelaçadas de violência e redenção giram em torno de personagens inesquecíveis no submundo do crime de Los Angeles."
+    "sinopse": "Histórias entrelaçadas de violência e redenção giram em torno de personagens inesquecíveis no submundo do crime de Los Angeles.",
+    "watched": []
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "ano_lancamento": 2001,
     "diretor": "Peter Jackson",
     "capa": "senhor-dos-aneis.jpg",
-    "sinopse": "Frodo Bolseiro e seus amigos embarcam em uma jornada épica para destruir o Um Anel e derrotar Sauron, o Senhor das Trevas."
+    "sinopse": "Frodo Bolseiro e seus amigos embarcam em uma jornada épica para destruir o Um Anel e derrotar Sauron, o Senhor das Trevas.",
+    "watched": []
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "ano_lancamento": 1999,
     "diretor": "David Fincher",
     "capa": "clube-da-luta.jpg",
-    "sinopse": "Um homem insatisfeito com sua vida forma um clube secreto de luta, que evolui para algo muito maior e perigoso."
+    "sinopse": "Um homem insatisfeito com sua vida forma um clube secreto de luta, que evolui para algo muito maior e perigoso.",
+    "watched": []
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "ano_lancamento": 1994,
     "diretor": "Roger Allers, Rob Minkoff",
     "capa": "o-rei-leao.jpg",
-    "sinopse": "A história de Simba, um jovem leão que luta para aceitar seu destino como rei da savana após a tragédia em sua família."
+    "sinopse": "A história de Simba, um jovem leão que luta para aceitar seu destino como rei da savana após a tragédia em sua família.",
+    "watched": []
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "ano_lancamento": 2000,
     "diretor": "Ridley Scott",
     "capa": "gladiador.jpg",
-    "sinopse": "Maximus, um general romano traído, busca vingança contra o imperador corrupto que destruiu sua família e roubou sua liberdade."
+    "sinopse": "Maximus, um general romano traído, busca vingança contra o imperador corrupto que destruiu sua família e roubou sua liberdade.",
+    "watched": []
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "ano_lancamento": 2019,
     "diretor": "Todd Phillips",
     "capa": "coringa.jpg",
-    "sinopse": "A transformação de Arthur Fleck em Coringa, explorando sua luta com a saúde mental e a crueldade da sociedade."
+    "sinopse": "A transformação de Arthur Fleck em Coringa, explorando sua luta com a saúde mental e a crueldade da sociedade.",
+    "watched": []
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "ano_lancamento": 2019,
     "diretor": "Anthony Russo, Joe Russo",
     "capa": "vingadores-ultimato.jpg",
-    "sinopse": "Os Vingadores remanescentes unem forças para reverter o estalo de Thanos e restaurar o universo."
+    "sinopse": "Os Vingadores remanescentes unem forças para reverter o estalo de Thanos e restaurar o universo.",
+    "watched": []
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
     "ano_lancamento": 2014,
     "diretor": "Christopher Nolan",
     "capa": "interestelar.jpg",
-    "sinopse": "Um grupo de astronautas embarca em uma jornada através de um buraco de minhoca para salvar a humanidade."
+    "sinopse": "Um grupo de astronautas embarca em uma jornada através de um buraco de minhoca para salvar a humanidade.",
+    "watched": []
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
     "ano_lancamento": 2004,
     "diretor": "Brad Bird",
     "capa": "os-incriveis.jpg",
-    "sinopse": "Uma família de super-heróis precisa trabalhar em conjunto para salvar o mundo, enquanto enfrentam desafios cotidianos."
+    "sinopse": "Uma família de super-heróis precisa trabalhar em conjunto para salvar o mundo, enquanto enfrentam desafios cotidianos.",
+    "watched": []
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
     "ano_lancamento": 2008,
     "diretor": "Christopher Nolan",
     "capa": "cavaleiro-das-trevas.jpg",
-    "sinopse": "Batman enfrenta seu maior inimigo, o Coringa, enquanto tenta salvar Gotham de uma nova onda de caos."
+    "sinopse": "Batman enfrenta seu maior inimigo, o Coringa, enquanto tenta salvar Gotham de uma nova onda de caos.",
+    "watched": []
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
     "ano_lancamento": 2019,
     "diretor": "Bong Joon Ho",
     "capa": "parasita.png",
-    "sinopse": "Uma família pobre se infiltra na vida de uma família rica, levando a consequências inesperadas e trágicas."
+    "sinopse": "Uma família pobre se infiltra na vida de uma família rica, levando a consequências inesperadas e trágicas.",
+    "watched": []
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
     "ano_lancamento": 2014,
     "diretor": "James Marsh",
     "capa": "a-teoria-de-tudo.jpg",
-    "sinopse": "A emocionante história de Stephen Hawking e sua luta contra a esclerose lateral amiotrófica enquanto desenvolve teorias revolucionárias sobre o universo."
+    "sinopse": "A emocionante história de Stephen Hawking e sua luta contra a esclerose lateral amiotrófica enquanto desenvolve teorias revolucionárias sobre o universo.",
+    "watched": []
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
     "ano_lancamento": 1997,
     "diretor": "Roberto Benigni",
     "capa": "a-vida-e-bela.jpg",
-    "sinopse": "Durante a Segunda Guerra Mundial, um pai faz de tudo para proteger seu filho dos horrores do campo de concentração, transformando a tragédia em um jogo."
+    "sinopse": "Durante a Segunda Guerra Mundial, um pai faz de tudo para proteger seu filho dos horrores do campo de concentração, transformando a tragédia em um jogo.",
+    "watched": []
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
     "ano_lancamento": 2021,
     "diretor": "Jon Watts",
     "capa": "homem-aranha-sem-volta.jpg",
-    "sinopse": "Peter Parker enfrenta o multiverso e precisa unir forças com versões alternativas de si mesmo para restaurar o equilíbrio."
+    "sinopse": "Peter Parker enfrenta o multiverso e precisa unir forças com versões alternativas de si mesmo para restaurar o equilíbrio.",
+    "watched": []
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
     "ano_lancamento": 1955,
     "diretor": "Clyde Geronimi, Wilfred Jackson",
     "capa": "dama-e-o-vagabundo.jpg",
-    "sinopse": "Uma cativante história de amor entre uma cadela aristocrata e um vira-lata aventureiro."
+    "sinopse": "Uma cativante história de amor entre uma cadela aristocrata e um vira-lata aventureiro.",
+    "watched": []
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
     "ano_lancamento": 2013,
     "diretor": "Baz Luhrmann",
     "capa": "o-grande-gatsby.jpg",
-    "sinopse": "Um misterioso milionário, Jay Gatsby, tenta reconquistar o amor de sua vida enquanto vive uma vida de luxo e excessos na década de 1920."
+    "sinopse": "Um misterioso milionário, Jay Gatsby, tenta reconquistar o amor de sua vida enquanto vive uma vida de luxo e excessos na década de 1920.",
+    "watched": []
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
     "ano_lancamento": 2013,
     "diretor": "Martin Scorsese",
     "capa": "o-lobo-de-wall-street.jpg",
-    "sinopse": "A ascensão e queda de Jordan Belfort, um corretor ambicioso de Wall Street que mergulha no mundo do excesso e da corrupção."
+    "sinopse": "A ascensão e queda de Jordan Belfort, um corretor ambicioso de Wall Street que mergulha no mundo do excesso e da corrupção.",
+    "watched": []
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
     "ano_lancamento": 1994,
     "diretor": "Frank Darabont",
     "capa": "um-sonho-de-liberdade.jpg",
-    "sinopse": "Condenado por um crime que não cometeu, Andy Dufresne encontra esperança e amizade em uma prisão brutal."
+    "sinopse": "Condenado por um crime que não cometeu, Andy Dufresne encontra esperança e amizade em uma prisão brutal.",
+    "watched": []
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
     "ano_lancamento": 2005,
     "diretor": "James McTeigue",
     "capa": "v-de-vinganca.jpg",
-    "sinopse": "Um vigilante mascarado luta contra um governo totalitário, inspirando a revolução em um futuro distópico."
+    "sinopse": "Um vigilante mascarado luta contra um governo totalitário, inspirando a revolução em um futuro distópico.",
+    "watched": []
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
     "ano_lancamento": 2016,
     "diretor": "Denis Villeneuve",
     "capa": "a-chegada.jpg",
-    "sinopse": "Quando naves alienígenas chegam à Terra, uma linguista é recrutada para decifrar sua linguagem e evitar um conflito global."
+    "sinopse": "Quando naves alienígenas chegam à Terra, uma linguista é recrutada para decifrar sua linguagem e evitar um conflito global.",
+    "watched": []
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
     "ano_lancamento": 2018,
     "diretor": "Ryan Coogler",
     "capa": "pantera-negra.jpg",
-    "sinopse": "T'Challa retorna a Wakanda para assumir o trono e enfrentar ameaças que podem destruir seu reino."
+    "sinopse": "T'Challa retorna a Wakanda para assumir o trono e enfrentar ameaças que podem destruir seu reino.",
+    "watched": []
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
     "ano_lancamento": 2017,
     "diretor": "Guillermo del Toro",
     "capa": "a-forma-da-agua.jpg",
-    "sinopse": "Uma faxineira muda se apaixona por uma criatura aquática mantida em cativeiro em um laboratório secreto."
+    "sinopse": "Uma faxineira muda se apaixona por uma criatura aquática mantida em cativeiro em um laboratório secreto.",
+    "watched": []
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
     "ano_lancamento": 2014,
     "diretor": "Damien Chazelle",
     "capa": "whiplash.jpg",
-    "sinopse": "Um jovem baterista ambicioso enfrenta os métodos brutais de um professor de música implacável."
+    "sinopse": "Um jovem baterista ambicioso enfrenta os métodos brutais de um professor de música implacável.",
+    "watched": []
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
     "ano_lancamento": 2010,
     "diretor": "Darren Aronofsky",
     "capa": "cisne-negro.jpg",
-    "sinopse": "Uma bailarina busca a perfeição em uma performance, mas acaba perdendo sua sanidade no processo."
+    "sinopse": "Uma bailarina busca a perfeição em uma performance, mas acaba perdendo sua sanidade no processo.",
+    "watched": []
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
     "ano_lancamento": 2012,
     "diretor": "Quentin Tarantino",
     "capa": "django-livre.jpg",
-    "sinopse": "Um escravo liberto se junta a um caçador de recompensas para resgatar sua esposa de um fazendeiro cruel."
+    "sinopse": "Um escravo liberto se junta a um caçador de recompensas para resgatar sua esposa de um fazendeiro cruel.",
+    "watched": []
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
     "ano_lancamento": 2013,
     "diretor": "Alfonso Cuarón",
     "capa": "gravidade.jpg",
-    "sinopse": "Dois astronautas ficam presos no espaço após um acidente e lutam para sobreviver."
+    "sinopse": "Dois astronautas ficam presos no espaço após um acidente e lutam para sobreviver.",
+    "watched": []
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
     "ano_lancamento": 2013,
     "diretor": "Chris Buck, Jennifer Lee",
     "capa": "frozen.jpg",
-    "sinopse": "Anna e Kristoff embarcam em uma aventura para encontrar Elsa, cujos poderes congelantes prenderam seu reino em um inverno eterno."
+    "sinopse": "Anna e Kristoff embarcam em uma aventura para encontrar Elsa, cujos poderes congelantes prenderam seu reino em um inverno eterno.",
+    "watched": []
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
     "ano_lancamento": 1995,
     "diretor": "John Lasseter",
     "capa": "toy-story.jpg",
-    "sinopse": "Os brinquedos de Andy ganham vida e precisam lidar com a chegada de um novo competidor, Buzz Lightyear."
+    "sinopse": "Os brinquedos de Andy ganham vida e precisam lidar com a chegada de um novo competidor, Buzz Lightyear.",
+    "watched": []
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
     "ano_lancamento": 2003,
     "diretor": "Andrew Stanton, Lee Unkrich",
     "capa": "procurando-nemo.jpg",
-    "sinopse": "Marlin, um peixe-palhaço, viaja pelo oceano para resgatar seu filho Nemo, que foi capturado por um mergulhador."
+    "sinopse": "Marlin, um peixe-palhaço, viaja pelo oceano para resgatar seu filho Nemo, que foi capturado por um mergulhador.",
+    "watched": []
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
     "ano_lancamento": 2001,
     "diretor": "Andrew Adamson, Vicky Jenson",
     "capa": "shrek.jpg",
-    "sinopse": "Shrek, um ogro recluso, embarca em uma missão para resgatar a princesa Fiona em troca de recuperar sua casa."
+    "sinopse": "Shrek, um ogro recluso, embarca em uma missão para resgatar a princesa Fiona em troca de recuperar sua casa.",
+    "watched": []
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
     "ano_lancamento": 2001,
     "diretor": "Pete Docter",
     "capa": "monstros-sa.jpg",
-    "sinopse": "Dois monstros, Mike e Sulley, enfrentam problemas quando uma menina humana acidentalmente entra em sua fábrica."
+    "sinopse": "Dois monstros, Mike e Sulley, enfrentam problemas quando uma menina humana acidentalmente entra em sua fábrica.",
+    "watched": []
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
     "ano_lancamento": 2013,
     "diretor": "Kirk DeMicco, Chris Sanders",
     "capa": "os-croods.jpg",
-    "sinopse": "Uma família pré-histórica embarca em uma aventura quando sua caverna é destruída, descobrindo um mundo cheio de perigos e maravilhas."
+    "sinopse": "Uma família pré-histórica embarca em uma aventura quando sua caverna é destruída, descobrindo um mundo cheio de perigos e maravilhas.",
+    "watched": []
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
     "ano_lancamento": 2021,
     "diretor": "Jared Bush, Byron Howard",
     "capa": "encanto.jpg",
-    "sinopse": "Mirabel, a única sem poderes em sua família mágica, tenta salvar o encanto que mantém sua casa unida."
+    "sinopse": "Mirabel, a única sem poderes em sua família mágica, tenta salvar o encanto que mantém sua casa unida.",
+    "watched": []
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
     "ano_lancamento": 2016,
     "diretor": "Ron Clements, John Musker",
     "capa": "moana.jpg",
-    "sinopse": "Moana, a filha do chefe de uma tribo polinésia, navega pelo oceano para salvar sua ilha e descobre seu verdadeiro destino."
+    "sinopse": "Moana, a filha do chefe de uma tribo polinésia, navega pelo oceano para salvar sua ilha e descobre seu verdadeiro destino.",
+    "watched": []
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
     "ano_lancamento": 2008,
     "diretor": "Mark Osborne, John Stevenson",
     "capa": "kung-fu-panda.jpg",
-    "sinopse": "Po, um panda atrapalhado, é escolhido como o Guerreiro Dragão e precisa salvar seu vale de um vilão poderoso."
+    "sinopse": "Po, um panda atrapalhado, é escolhido como o Guerreiro Dragão e precisa salvar seu vale de um vilão poderoso.",
+    "watched": []
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
     "ano_lancamento": 2015,
     "diretor": "Pete Docter, Ronnie del Carmen",
     "capa": "divertida-mente.jpg",
-    "sinopse": "As emoções de uma jovem, Alegria, Tristeza, Raiva, Nojinho e Medo, lutam para ajudá-la em uma mudança difícil."
+    "sinopse": "As emoções de uma jovem, Alegria, Tristeza, Raiva, Nojinho e Medo, lutam para ajudá-la em uma mudança difícil.",
+    "watched": []
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
     "ano_lancamento": 2016,
     "diretor": "Byron Howard, Rich Moore",
     "capa": "zootopia.jpg",
-    "sinopse": "Em uma cidade de animais, uma coelha policial e uma raposa golpista trabalham juntos para resolver um grande mistério."
+    "sinopse": "Em uma cidade de animais, uma coelha policial e uma raposa golpista trabalham juntos para resolver um grande mistério.",
+    "watched": []
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
     "ano_lancamento": 2006,
     "diretor": "John Lasseter, Joe Ranft",
     "capa": "carros.jpg",
-    "sinopse": "Relâmpago McQueen, um carro de corrida, descobre o verdadeiro significado da amizade ao parar em uma cidade esquecida."
+    "sinopse": "Relâmpago McQueen, um carro de corrida, descobre o verdadeiro significado da amizade ao parar em uma cidade esquecida.",
+    "watched": []
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
     "ano_lancamento": 2012,
     "diretor": "Mark Andrews, Brenda Chapman",
     "capa": "valente.jpg",
-    "sinopse": "Merida, uma princesa escocesa, desafia tradições e luta para desfazer uma maldição que colocou sua mãe em perigo."
+    "sinopse": "Merida, uma princesa escocesa, desafia tradições e luta para desfazer uma maldição que colocou sua mãe em perigo.",
+    "watched": []
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
     "ano_lancamento": 2017,
     "diretor": "Lee Unkrich, Adrian Molina",
     "capa": "viva.jpg",
-    "sinopse": "Miguel, um jovem aspirante a músico, embarca em uma jornada pela Terra dos Mortos para descobrir os segredos de sua família."
+    "sinopse": "Miguel, um jovem aspirante a músico, embarca em uma jornada pela Terra dos Mortos para descobrir os segredos de sua família.",
+    "watched": []
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
     "ano_lancamento": 2007,
     "diretor": "Brad Bird, Jan Pinkava",
     "capa": "ratatouille.jpg",
-    "sinopse": "Remy, um rato apaixonado por culinária, forma uma parceria improvável com um jovem cozinheiro para alcançar seu sonho de ser chef."
+    "sinopse": "Remy, um rato apaixonado por culinária, forma uma parceria improvável com um jovem cozinheiro para alcançar seu sonho de ser chef.",
+    "watched": []
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
     "ano_lancamento": 2013,
     "diretor": "James Wan",
     "capa": "invocacao-do-mal.jpg",
-    "sinopse": "Os investigadores paranormais Ed e Lorraine Warren ajudam uma família aterrorizada por uma presença sombria em sua casa de campo."
+    "sinopse": "Os investigadores paranormais Ed e Lorraine Warren ajudam uma família aterrorizada por uma presença sombria em sua casa de campo.",
+    "watched": []
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
     "ano_lancamento": 1973,
     "diretor": "William Friedkin",
     "capa": "o-exorcista.jpg",
-    "sinopse": "Uma jovem é possuída por uma entidade demoníaca, e sua mãe busca a ajuda de dois padres para realizar um exorcismo."
+    "sinopse": "Uma jovem é possuída por uma entidade demoníaca, e sua mãe busca a ajuda de dois padres para realizar um exorcismo.",
+    "watched": []
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
     "ano_lancamento": 2018,
     "diretor": "Ari Aster",
     "capa": "hereditario.jpg",
-    "sinopse": "Após a morte da matriarca da família, segredos sombrios são revelados e eventos aterrorizantes começam a acontecer."
+    "sinopse": "Após a morte da matriarca da família, segredos sombrios são revelados e eventos aterrorizantes começam a acontecer.",
+    "watched": []
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
     "ano_lancamento": 2017,
     "diretor": "Jordan Peele",
     "capa": "corra.jpg",
-    "sinopse": "Um jovem negro descobre segredos sombrios durante uma visita à família de sua namorada branca."
+    "sinopse": "Um jovem negro descobre segredos sombrios durante uma visita à família de sua namorada branca.",
+    "watched": []
   },
   {
     "id": 50,
@@ -597,7 +646,8 @@
     "ano_lancamento": 2017,
     "diretor": "Andy Muschietti",
     "capa": "it-a-coisa.jpg",
-    "sinopse": "Um grupo de crianças enfrenta um palhaço demoníaco que se alimenta de seus medos em uma pequena cidade."
+    "sinopse": "Um grupo de crianças enfrenta um palhaço demoníaco que se alimenta de seus medos em uma pequena cidade.",
+    "watched": []
   },
   {
     "id": 51,
@@ -609,7 +659,8 @@
     "ano_lancamento": 1978,
     "diretor": "John Carpenter",
     "capa": "halloween.jpg",
-    "sinopse": "Michael Myers, um assassino em série, retorna à sua cidade natal para perseguir uma jovem e seus amigos no Halloween."
+    "sinopse": "Michael Myers, um assassino em série, retorna à sua cidade natal para perseguir uma jovem e seus amigos no Halloween.",
+    "watched": []
   },
   {
     "id": 52,
@@ -621,7 +672,8 @@
     "ano_lancamento": 2015,
     "diretor": "Robert Eggers",
     "capa": "a-bruxa.jpg",
-    "sinopse": "Uma família puritana do século XVII enfrenta forças malignas em sua fazenda isolada."
+    "sinopse": "Uma família puritana do século XVII enfrenta forças malignas em sua fazenda isolada.",
+    "watched": []
   },
   {
     "id": 53,
@@ -633,7 +685,8 @@
     "ano_lancamento": 1980,
     "diretor": "Stanley Kubrick",
     "capa": "o-iluminado.jpg",
-    "sinopse": "Um escritor se torna violento ao ser isolado com sua família em um hotel assombrado."
+    "sinopse": "Um escritor se torna violento ao ser isolado com sua família em um hotel assombrado.",
+    "watched": []
   },
   {
     "id": 54,
@@ -645,7 +698,8 @@
     "ano_lancamento": 2004,
     "diretor": "James Wan",
     "capa": "jogos-mortais.jpg",
-    "sinopse": "Duas pessoas presas em um banheiro devem seguir as regras de um jogo macabro para sobreviver."
+    "sinopse": "Duas pessoas presas em um banheiro devem seguir as regras de um jogo macabro para sobreviver.",
+    "watched": []
   },
   {
     "id": 55,
@@ -657,7 +711,8 @@
     "ano_lancamento": 2018,
     "diretor": "John Krasinski",
     "capa": "um-lugar-silencioso.jpg",
-    "sinopse": "Uma família tenta sobreviver em silêncio em um mundo onde criaturas mortais caçam pelo som."
+    "sinopse": "Uma família tenta sobreviver em silêncio em um mundo onde criaturas mortais caçam pelo som.",
+    "watched": []
   },
   {
     "id": 56,
@@ -669,7 +724,8 @@
     "ano_lancamento": 2012,
     "diretor": "Scott Derrickson",
     "capa": "a-entidade.jpg",
-    "sinopse": "Um escritor encontra vídeos perturbadores em sua nova casa que revelam assassinatos sobrenaturais."
+    "sinopse": "Um escritor encontra vídeos perturbadores em sua nova casa que revelam assassinatos sobrenaturais.",
+    "watched": []
   },
   {
     "id": 57,
@@ -681,7 +737,8 @@
     "ano_lancamento": 2019,
     "diretor": "Ari Aster",
     "capa": "midsommar.jpg",
-    "sinopse": "Um casal viaja para um festival de verão em uma vila isolada que rapidamente se torna aterrorizante."
+    "sinopse": "Um casal viaja para um festival de verão em uma vila isolada que rapidamente se torna aterrorizante.",
+    "watched": []
   },
   {
     "id": 58,
@@ -693,7 +750,8 @@
     "ano_lancamento": 2004,
     "diretor": "Takashi Shimizu",
     "capa": "o-grito.jpg",
-    "sinopse": "Uma maldição mortal assombra todos que entram em uma casa marcada por uma tragédia terrível."
+    "sinopse": "Uma maldição mortal assombra todos que entram em uma casa marcada por uma tragédia terrível.",
+    "watched": []
   },
   {
     "id": 59,
@@ -705,7 +763,8 @@
     "ano_lancamento": 2013,
     "diretor": "Fede Alvarez",
     "capa": "a-morte-do-demonio.jpg",
-    "sinopse": "Cinco amigos descobrem um livro amaldiçoado e inadvertidamente liberam um demônio mortal."
+    "sinopse": "Cinco amigos descobrem um livro amaldiçoado e inadvertidamente liberam um demônio mortal.",
+    "watched": []
   },
   {
     "id": 60,
@@ -717,6 +776,7 @@
     "ano_lancamento": 2014,
     "diretor": "John R. Leonetti",
     "capa": "annabelle.jpg",
-    "sinopse": "Uma boneca aparentemente inofensiva se torna o receptáculo de uma entidade demoníaca."
+    "sinopse": "Uma boneca aparentemente inofensiva se torna o receptáculo de uma entidade demoníaca.",
+    "watched": []
   }
 ]
