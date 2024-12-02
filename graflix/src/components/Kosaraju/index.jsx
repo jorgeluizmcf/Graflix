@@ -1,82 +1,80 @@
-import React from "react";
-import moviesData from "../../data/data.json"; // Importando o JSON de filmes
+import { useEffect } from "react";
 
-const Kosaraju = () => {
-  // Função para verificar se dois filmes são "conectados" pelos critérios
-  const areConnected = (movieA, movieB) => {
-    return (
-      movieA.classificacao_indicativa === movieB.classificacao_indicativa ||
-      movieA.genero === movieB.genero ||
-      movieA.ano_lancamento === movieB.ano_lancamento ||
-      movieA.diretor === movieB.diretor ||
-      movieA.elenco.some((actor) => movieB.elenco.includes(actor))
-    );
-  };
+const Kosaraju = ({
+  movies,
+  watchedMovies,
+  loggedUser,
+  setRecommendedMovies,
+  setGraphData,
+}) => {
+  // Função para calcular os pesos entre os filmes com base em propriedades em comum
+  const calculateWeights = (movies) => {
+    const graph = new Map();
+    movies.forEach((movieA) => {
+      movies.forEach((movieB) => {
+        if (movieA.id !== movieB.id) {
+          let weight = 0;
+          if (movieA.genero === movieB.genero) weight += 4; // Mais peso para gênero
+          if (movieA.classificacao === movieB.classificacao) weight += 3;
+          if (movieA.diretor === movieB.diretor) weight += 2;
+          const commonActors = movieA.elenco.filter((actor) =>
+            movieB.elenco.includes(actor)
+          );
+          weight += commonActors.length;
 
-  // Construindo o grafo como uma lista de adjacência
-  const buildGraph = (movies) => {
-    const graph = {};
-    movies.forEach((movie, i) => {
-      graph[i] = [];
-      movies.forEach((otherMovie, j) => {
-        if (i !== j && areConnected(movie, otherMovie)) {
-          graph[i].push(j); // Adiciona uma aresta direcionada
+          if (!graph.has(movieA.id)) graph.set(movieA.id, []);
+          graph.get(movieA.id).push({ target: movieB.id, weight });
         }
       });
     });
     return graph;
   };
 
-  // Transpor o grafo (inverter as arestas)
-  const transposeGraph = (graph) => {
-    const transposed = {};
-    Object.keys(graph).forEach((key) => {
-      transposed[key] = [];
-    });
-    Object.keys(graph).forEach((key) => {
-      graph[key].forEach((neighbor) => {
-        transposed[neighbor].push(parseInt(key));
-      });
-    });
-    return transposed;
-  };
-
-  // Realizar busca em profundidade (DFS)
-  const dfs = (graph, vertex, visited, stack = []) => {
-    visited[vertex] = true;
-    graph[vertex].forEach((neighbor) => {
-      if (!visited[neighbor]) {
-        dfs(graph, neighbor, visited, stack);
-      }
-    });
-    stack.push(vertex);
-  };
-
-  // Encontrar os componentes fortemente conectados usando Kosaraju
-  const kosarajuAlgorithm = (graph) => {
-    const vertices = Object.keys(graph);
-    const visited = {};
+  // Algoritmo de Kosaraju para encontrar componentes fortemente conectados
+  const kosaraju = (graph) => {
     const stack = [];
+    const visited = new Set();
 
-    // Passo 1: Preencher a pilha com a ordem de finalização
-    vertices.forEach((vertex) => {
-      if (!visited[vertex]) {
-        dfs(graph, vertex, visited, stack);
+    // Passo 1: Ordenação topológica
+    const dfs1 = (node) => {
+      visited.add(node);
+      for (const edge of graph.get(node) || []) {
+        if (!visited.has(edge.target)) dfs1(edge.target);
       }
-    });
+      stack.push(node);
+    };
+
+    for (const node of graph.keys()) {
+      if (!visited.has(node)) dfs1(node);
+    }
 
     // Passo 2: Transpor o grafo
-    const transposedGraph = transposeGraph(graph);
+    const transposedGraph = new Map();
+    for (const [node, edges] of graph.entries()) {
+      edges.forEach((edge) => {
+        if (!transposedGraph.has(edge.target))
+          transposedGraph.set(edge.target, []);
+        transposedGraph.get(edge.target).push(node);
+      });
+    }
 
-    // Passo 3: Fazer DFS no grafo transposto na ordem da pilha
-    const visitedTransposed = {};
-    const scc = []; // Componentes fortemente conectados
+    // Passo 3: Identificar SCCs
+    const scc = [];
+    visited.clear();
+
+    const dfs2 = (node, component) => {
+      visited.add(node);
+      component.push(node);
+      for (const neighbor of transposedGraph.get(node) || []) {
+        if (!visited.has(neighbor)) dfs2(neighbor, component);
+      }
+    };
 
     while (stack.length > 0) {
-      const vertex = stack.pop();
-      if (!visitedTransposed[vertex]) {
+      const node = stack.pop();
+      if (!visited.has(node)) {
         const component = [];
-        dfs(transposedGraph, vertex, visitedTransposed, component);
+        dfs2(node, component);
         scc.push(component);
       }
     }
@@ -84,32 +82,59 @@ const Kosaraju = () => {
     return scc;
   };
 
-  // Recomendação de filmes
-  const recommendMovies = (movies, scc) => {
-    const recommendations = {};
-    scc.forEach((component) => {
-      component.forEach((movieIndex) => {
-        recommendations[movies[movieIndex].titulo] = component
-          .filter((index) => index !== movieIndex) // Remove o próprio filme
-          .slice(0, 2) // Até 2 vizinhos
-          .map((index) => movies[index].titulo);
+  // Converte o grafo em uma matriz de adjacência
+  const graphToMatrix = (graph) => {
+    const nodes = Array.from(graph.keys());
+    const size = nodes.length;
+    const matrix = Array.from({ length: size }, () => Array(size).fill(0));
+
+    nodes.forEach((node, i) => {
+      (graph.get(node) || []).forEach((edge) => {
+        const j = nodes.indexOf(edge.target);
+        if (j !== -1) matrix[i][j] = edge.weight;
       });
     });
-    return recommendations;
+
+    return { matrix, nodes };
   };
 
-  // Construir o grafo e aplicar Kosaraju
-  const graph = buildGraph(moviesData);
-  const stronglyConnectedComponents = kosarajuAlgorithm(graph);
-  const recommendations = recommendMovies(moviesData, stronglyConnectedComponents);
+  // UseEffect para calcular grafo, SCCs, recomendações e dados para visualização
+  useEffect(() => {
+    if (!movies || !Array.isArray(movies) || movies.length === 0) {
+      console.warn("Movies is invalid or empty:", movies);
+      return;
+    }
 
-  // Retornar o JSON com as recomendações
-  return (
-    <div>
-      <h1>Recomendações de Filmes</h1>
-      <pre>{JSON.stringify(recommendations, null, 2)}</pre>
-    </div>
-  );
+    if (!loggedUser) {
+      console.warn("LoggedUser is undefined");
+      return;
+    }
+
+    const graph = calculateWeights(movies);
+    const scc = kosaraju(graph);
+
+    // Determinar recomendações
+    const recommendedMovies = [];
+    scc.forEach((component) => {
+      component.forEach((movieId) => {
+        if (
+          !watchedMovies.some((movie) => movie.id === movieId) &&
+          !recommendedMovies.some((movie) => movie.id === movieId)
+        ) {
+          const recommendedMovie = movies.find((movie) => movie.id === movieId);
+          if (recommendedMovie) recommendedMovies.push(recommendedMovie);
+        }
+      });
+    });
+
+    setRecommendedMovies(recommendedMovies);
+
+    // Gerar matriz de adjacências para o grafo
+    const { matrix, nodes } = graphToMatrix(graph);
+    setGraphData({ matrix, nodes });
+  }, [movies, watchedMovies, loggedUser, setRecommendedMovies, setGraphData]);
+
+  return null; // Não renderiza nada diretamente
 };
 
 export default Kosaraju;
