@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import GenericModal from "../GenericModal/index.jsx"; // Componente do Modal
 import "./styles.css"; // Estilos personalizados
 
-const MovieSwiper = ({ movies, handleWatchFilm }) => {
+const MovieSwiper = ({ movies, watchedMovies, handleWatchFilm, graphData }) => {
   const [selectedMovie, setSelectedMovie] = useState(null); // Estado para o filme selecionado
   const [modalOpen, setModalOpen] = useState(false); // Estado do modal (aberto ou fechado)
 
@@ -36,7 +36,9 @@ const MovieSwiper = ({ movies, handleWatchFilm }) => {
           height={64} // Altura do modal
           open={modalOpen}
           setIsOpen={setModalOpen}
+          watchedMovies={watchedMovies}
           handleWatchFilm={handleWatchFilm}
+          graphData={graphData}
         />
       )}
     </div>

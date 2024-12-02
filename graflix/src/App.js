@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import TopBar from "./components/TopBar";
 import MovieSwiper from "./components/MovieSwiper";
@@ -29,11 +29,10 @@ function App() {
         return movie;
       });
 
-      // Atualizar a lista de filmes assistidos
       const updatedWatchedMovies = updatedMovies.filter((movie) =>
         movie.watched.includes(loggedUser)
       );
-      setWatchedMovies(updatedWatchedMovies);
+      setWatchedMovies(updatedWatchedMovies); // Atualiza explicitamente
       return updatedMovies;
     });
   };
@@ -59,18 +58,33 @@ function App() {
   // Lista de filmes filtrados de acordo com o termo de busca
   const filteredMovies = filterMovies(search);
 
-  const handleRecommendedMovie = (recomend) => {
-    setRecommendedMovies(recomend);
-  };
+  useEffect(() => {
+    const updatedWatchedMovies = movies.filter((movie) =>
+      movie.watched.includes(loggedUser)
+    );
+    setWatchedMovies(updatedWatchedMovies);
+  }, [loggedUser, movies]);
+
+  useEffect(() => {
+    // Opcional: Atualizar recomendações sempre que o usuário mudar
+    // Recalcular `recommendedMovies` se necessário
+  }, [loggedUser, movies, watchedMovies]);
 
   return (
     <div className="App">
       <div>
+        {/*<Kosaraju
+          movies={movies} // Certifique-se de que moviesData é um array
+          watchedMovies={watchedMovies}
+          loggedUser={loggedUser}
+          setRecommendedMovies={setRecommendedMovies}
+        />*/}
         <Kosaraju
           movies={movies} // Certifique-se de que moviesData é um array
           watchedMovies={watchedMovies}
           loggedUser={loggedUser}
           setRecommendedMovies={setRecommendedMovies}
+          setGraphData={setGraphData}
         />
       </div>
       <TopBar
@@ -94,6 +108,7 @@ function App() {
               <MovieSwiper
                 movies={filteredMovies}
                 handleWatchFilm={handleWatchFilm}
+                graphData={graphData}
               />
             )}
           </div>
@@ -111,6 +126,8 @@ function App() {
             <MovieSwiper
               movies={watchedMovies}
               handleWatchFilm={handleWatchFilm}
+              watchedMovies={watchedMovies}
+              graphData={graphData}
             />
           )}
         </div>
@@ -128,6 +145,8 @@ function App() {
             <MovieSwiper
               movies={recommendedMovies}
               handleWatchFilm={handleWatchFilm}
+              watchedMovies={watchedMovies}
+              graphData={graphData}
             />
           )}
         </div>
@@ -135,7 +154,12 @@ function App() {
       <div className="movies-container">
         <h1 className="movies-container-swiper-title">Todos os Filmes</h1>
         <div className="movies-container-swiper">
-          <MovieSwiper movies={movies} handleWatchFilm={handleWatchFilm} />
+          <MovieSwiper
+            movies={movies}
+            handleWatchFilm={handleWatchFilm}
+            graphData={graphData}
+            watchedMovies={watchedMovies}
+          />
         </div>
       </div>
     </div>

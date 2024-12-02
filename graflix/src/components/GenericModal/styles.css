@@ -54,6 +54,7 @@
   display: flex;
   margin-top: 20px;
   padding: 28px;
+  gap: 8px;
 }
 
 .modal-body-movie {
@@ -96,15 +97,20 @@
   transition: ease-in-out 200ms;
 }
 
+.modal-body-graph {
+  display: flex;
+  width: 100%;
+}
+
 .modal-movie-image {
-  max-width: 20%;
-  border-radius: 5px;
+  max-height: 50vh;
+  border-radius: 18px;
   margin-right: 20px;
 }
 
 .modal-movie-details {
   flex: 1;
-  max-width: 30%;
+  max-width: 100%;
 }
 
 .modal-movie-details h3 {

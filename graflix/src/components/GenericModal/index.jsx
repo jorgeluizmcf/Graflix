@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import GraphViewer from "../GraphViewer";
 import "./styles.css";
 
@@ -9,16 +9,26 @@ const GenericModal = ({
   title,
   open,
   setIsOpen,
+  watchedMovies,
   handleWatchFilm,
   currentUser,
   graphData,
 }) => {
+  // Verifica diretamente se o filme foi assistido pelo usuário atual
+  const hasUserWatchedMovie = watchedMovies.some(
+    (watchedMovie) =>
+      watchedMovie.id === movie.id && watchedMovie.watched.includes(currentUser)
+  );
+
+  useEffect(() => {
+    if (open) {
+      console.log("Watched Movies:", watchedMovies);
+      console.log("Has User Watched Movie:", hasUserWatchedMovie);
+    }
+  }, [open, watchedMovies, movie.id, currentUser, hasUserWatchedMovie]);
+
   if (!open) return null; // Retorna nulo quando o modal está fechado
 
-  const isWatchedByCurrentUser = movie.watched.includes(currentUser); // Verifica se o usuário assistiu
-
-  console.log(isWatchedByCurrentUser);
-  console.log(movie);
   return (
     <div className="modal-overlay">
       <div
@@ -74,19 +84,18 @@ const GenericModal = ({
             <div className="modal-body-movie-buttons">
               <button
                 className={
-                  isWatchedByCurrentUser
+                  hasUserWatchedMovie
                     ? "modal-body-movie-button-check"
                     : "modal-body-movie-button-nocheck"
                 }
                 onClick={() => handleWatchFilm(movie.id)}
               >
-                {isWatchedByCurrentUser ? "Já assisti" : "Não Assistido"}
+                {hasUserWatchedMovie ? "Já assisti" : "Não Assistido"}
               </button>
             </div>
           </div>
           <div className="modal-body-graph">
-            teste
-            <GraphViewer graphData={graphData} />
+            <GraphViewer elements={graphData} />
           </div>
         </div>
       </div>

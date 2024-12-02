@@ -1,15 +1,19 @@
 import React, { useEffect, useRef } from "react";
 import cytoscape from "cytoscape";
+import "./styles.css"; // Importação do CSS externo
 
-const Graph = ({ elements }) => {
-  const containerRef = useRef(null); // Referência para o contêiner do grafo
+const GraphViewer = ({ elements, adjacencyMatrix }) => {
+  const containerRef = useRef(null);
 
   useEffect(() => {
+    let cy;
+
     if (containerRef.current) {
-      cytoscape({
-        container: containerRef.current, // Contêiner do grafo
-        elements, // Nós e arestas fornecidos como props
-        style: [ // Estilos dos nós e arestas
+      console.log('Iniciando o Cytoscape...');
+      cy = cytoscape({
+        container: containerRef.current,
+        elements,
+        style: [
           {
             selector: "node",
             style: {
@@ -19,6 +23,8 @@ const Graph = ({ elements }) => {
               "text-valign": "center",
               "text-halign": "center",
               "font-size": "12px",
+              "border-width": 2,
+              "border-color": "#fff",
             },
           },
           {
@@ -29,19 +35,53 @@ const Graph = ({ elements }) => {
               "target-arrow-color": "#2ECC40",
               "target-arrow-shape": "triangle",
               "curve-style": "bezier",
+              label: "data(weight)",
+              "font-size": "10px",
+              color: "#2ECC40",
             },
           },
         ],
         layout: {
-          name: "breadthfirst", // Layout do grafo (ajuste conforme necessário)
-          directed: true,
-          padding: 10,
+          name: "random", // Layout mais uniforme e distribuído
+          animate: true,
+          padding: 30,
         },
       });
-    }
-  }, [elements]);
 
-  return <div ref={containerRef} style={{ width: "100%", height: "500px" }} />;
+      // Atualizando labels dos nós e pesos das arestas
+      cy.nodes().forEach((node, index) => {
+        node.data("label", String.fromCharCode(65 + index)); // Define labels como "A", "B", "C", etc.
+      });
+
+      cy.edges().forEach((edge) => {
+        const sourceId = edge.source().id();
+        const targetId = edge.target().id();
+        const sourceIndex = sourceId.charCodeAt(0) - 65; // Converte "A" -> 0, "B" -> 1, etc.
+        const targetIndex = targetId.charCodeAt(0) - 65;
+        const weight = adjacencyMatrix[sourceIndex][targetIndex]; // Pega o peso da matriz de adjacências
+        edge.data("weight", weight);
+      });
+
+      // Ajuste de zoom para centralizar o grafo
+      cy.ready(() => {
+        cy.fit(cy.elements(), 50); // Ajusta o zoom e centraliza o grafo
+      });
+
+      console.log('Cytoscape iniciado:', cy);
+
+      cy.edges().forEach((edge) => {
+        console.log("Edge data:", edge.data());
+      });
+    }
+
+    return () => {
+      if (cy) {
+        cy.destroy();
+      }
+    };
+  }, [elements, adjacencyMatrix]); // Recria o grafo quando `elements` ou `adjacencyMatrix` mudam
+
+  return <div ref={containerRef} className="graph-container" />;
 };
 
-export default Graph;
+export default GraphViewer;
