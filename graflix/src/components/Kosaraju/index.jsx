@@ -8,45 +8,62 @@ const Kosaraju = ({
   setGraphData,
 }) => {
   // Função para calcular os pesos entre os filmes com base em propriedades em comum
-  const calculateWeights = (movies) => {
-    const graph = new Map();
-    movies.forEach((movieA) => {
-      movies.forEach((movieB) => {
-        if (movieA.id !== movieB.id) {
+  const calculateWeights = (movies) => {   
+    
+   const graph = movies.reduce((acc , currentItem, index, array) => {
+      acc.set(currentItem.id, [])
+
+      array.forEach(otherItem => {
+        if(currentItem.id !== otherItem.id) {
           let weight = 0;
-          if (movieA.genero === movieB.genero) weight += 4; // Mais peso para gênero
-          if (movieA.classificacao === movieB.classificacao) weight += 3;
-          if (movieA.diretor === movieB.diretor) weight += 2;
-          const commonActors = movieA.elenco.filter((actor) =>
-            movieB.elenco.includes(actor)
+          if (currentItem.genero === otherItem.genero) weight += 4; // Mais peso para gênero
+          if (currentItem.classificacao === otherItem.classificacao) weight += 3;
+          if (currentItem.diretor === otherItem.diretor) weight += 2;
+          const commonActors = currentItem.elenco.filter((actor) =>
+            otherItem.elenco.includes(actor)
           );
           weight += commonActors.length;
-
-          if (!graph.has(movieA.id)) graph.set(movieA.id, []);
-          graph.get(movieA.id).push({ target: movieB.id, weight });
+          acc.get(currentItem.id).push({ target: otherItem.id, weight })
         }
-      });
-    });
-    return graph;
-  };
+      })
 
+      acc.set(
+        currentItem.id,
+        acc.get(currentItem.id).sort((a, b) => b.weight - a.weight)
+      );
+
+      return acc;
+
+    }, new Map())
+
+    return new Map(
+      Array.from(graph.entries()).sort((a,b) => b[1] - a[1])
+    )
+  };
+  
   // Algoritmo de Kosaraju para encontrar componentes fortemente conectados
   const kosaraju = (graph) => {
     const stack = [];
-    const visited = new Set();
-
+    const visited = new Set();    
+    
     // Passo 1: Ordenação topológica
-    const dfs1 = (node) => {
+    const dfs1 = (node) => {            
       visited.add(node);
       for (const edge of graph.get(node) || []) {
+        
         if (!visited.has(edge.target)) dfs1(edge.target);
+
       }
+      
       stack.push(node);
     };
-
+    
     for (const node of graph.keys()) {
       if (!visited.has(node)) dfs1(node);
     }
+
+    console.log(stack);
+    
 
     // Passo 2: Transpor o grafo
     const transposedGraph = new Map();
@@ -64,10 +81,10 @@ const Kosaraju = ({
 
     const dfs2 = (node, component) => {
       visited.add(node);
-      component.push(node);
       for (const neighbor of transposedGraph.get(node) || []) {
         if (!visited.has(neighbor)) dfs2(neighbor, component);
       }
+      component.push(node);
     };
 
     while (stack.length > 0) {
